@@ -11,4 +11,4 @@ for tc in range(T):
             A = A + data[i+j]
         line.append(A)
     line.sort()
-    print("#{} {}".format(tc+1, line[-1]-line[0]))  
+    print("#{} {}".format(tc+1, line[-1]-line[0]))
